@@ -6,7 +6,7 @@ under **Creative Commons Attribution 4.0 International (CC BY 4.0)**:
 https://creativecommons.org/licenses/by/4.0/
 
 You may share and adapt them for any purpose, as long as you give credit
-("@artindata") and link to the license.
+("artindata": @art.in.data on Instagram, @artindata on X) and link to the license.
 
 ## Not covered by this license
 - **Code** is under the MIT License (see `LICENSE`).

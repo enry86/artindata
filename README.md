@@ -1,7 +1,8 @@
 # artindata
 
 Data visualizations made as art, and kept honest to the data.
-New pieces are posted on Instagram and X as [@artindata](https://x.com/artindata).
+New pieces are posted on Instagram as [@art.in.data](https://www.instagram.com/art.in.data/)
+and on X as [@artindata](https://x.com/artindata).
 This repo holds the code for every piece, as an educational reference.
 
 ![1,200 springs in Kyoto](posts/001_kyoto-blossoms/output/kyoto_blossoms_instagram.png)

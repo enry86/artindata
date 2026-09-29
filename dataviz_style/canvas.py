@@ -19,7 +19,7 @@ from .fonts import TYPE_SCALE, font, pt
 from .mark import draw_mark
 from .themes import Theme
 
-HANDLE = "@artindata"
+HANDLE = "@artindata"          # X; each format carries the handle of its platform
 DPI = 100
 
 
@@ -31,11 +31,14 @@ class Format:
     margin: int     # left/right
     top: int        # to the title's cap line
     footer: int     # height of the footer band
+    handle: str = HANDLE
 
 
 FORMATS = {
-    "instagram": Format("instagram", 1080, 1350, margin=80, top=84, footer=76),
-    "x":         Format("x",         1600, 900,  margin=80, top=64, footer=64),
+    "instagram": Format("instagram", 1080, 1350, margin=80, top=84, footer=76,
+                        handle="@art.in.data"),
+    "x":         Format("x",         1600, 900,  margin=80, top=64, footer=64,
+                        handle="@artindata"),
 }
 
 
@@ -168,7 +171,7 @@ class Canvas:
         self.rule(self.left, self.right, y_rule)
         y = y_rule + self.fmt.footer * 0.55
         x = self.signature(self.left, y)
-        self.text(x, y, HANDLE, role="handle")
+        self.text(x, y, self.fmt.handle, role="handle")
         self.text(self.right, y, source, role="small", color=self.theme.muted, ha="right")
 
     def save(self, path):
