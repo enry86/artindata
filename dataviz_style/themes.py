@@ -74,4 +74,16 @@ THEMES = {
         # gold / rose: CVD dE 23.5 (deutan), normal 30.1, both >= 3:1 on bg
         highlights=("#FFC857", "#FF6FD8"),
     ),
+    # a planet's restless crust: embers glowing on near-black
+    "ember": Theme(
+        name="ember",
+        bg="#030306",
+        ink="#F6F0E8",
+        muted="#ABA6B8",   # >= 7:1 on bg
+        guide="#2A2836",
+        mark="#FF9A5A",
+        accent="#FF7A33",
+        mark_range=("#FFE2B8", "#7A3FD0"),   # shallow, pale gold .. deep, violet (depth)
+        sky=("#09070F", "#050509", "#030306", "#030306"),
+    ),
 }

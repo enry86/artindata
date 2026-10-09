@@ -39,6 +39,9 @@ FORMATS = {
                         handle="@art.in.data"),
     "x":         Format("x",         1600, 900,  margin=80, top=64, footer=64,
                         handle="@artindata"),
+    # X also shows 4:5 images in full; same grid as Instagram, X's handle
+    "x_portrait": Format("x_portrait", 1080, 1350, margin=80, top=84, footer=76,
+                         handle="@artindata"),
 }
 
 
