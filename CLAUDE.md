@@ -14,7 +14,9 @@ with code published as educational reference.
   footer with handle + data source, signature mark
 - Chosen per post: title alignment, left or centered
   (`Canvas.header(align=...)`), whichever suits the artwork
-- Exports: 1080x1350 (Instagram 4:5) and 1600x900 (X 16:9)
+- Exports: 1080x1350 (4:5) for both platforms, with each platform's own
+  handle in the footer (`Canvas("instagram")`, `Canvas("x_portrait")`).
+  A 1600x900 (X 16:9) format still exists (`Canvas("x")`) for posts that need it.
 
 ## Repo structure
 - `dataviz_style/` shared module: fonts, sizes, footer, themes,
