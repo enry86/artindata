@@ -4,3 +4,5 @@ pandas>=2.2
 scipy>=1.13
 # only to rebuild the static fonts
 fonttools>=4.50
+# satellite positions (post 004)
+sgp4>=2.23

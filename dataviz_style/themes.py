@@ -86,4 +86,17 @@ THEMES = {
         mark_range=("#FFE2B8", "#7A3FD0"),   # shallow, pale gold .. deep, violet (depth)
         sky=("#09070F", "#050509", "#030306", "#030306"),
     ),
+    # the sky above us: ivory swarm and coral rings over a jade planet
+    "orbit": Theme(
+        name="orbit",
+        bg="#030A08",
+        ink="#F1F7F2",
+        muted="#A1BDB3",   # >= 7:1 on bg
+        guide="#1B3731",
+        mark="#F4EBC6",
+        accent="#FF5E5B",
+        mark_range=("#FBF6E0", "#D8CC96"),
+        sky=("#0A1D19", "#06110E", "#030A08", "#030A08"),
+        highlights=("#F4EBC6", "#FF5E5B"),   # ivory / coral: differ in hue and in lightness (CVD dE >= 35)
+    ),
 }
