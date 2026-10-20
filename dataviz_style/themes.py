@@ -99,4 +99,16 @@ THEMES = {
         sky=("#0A1D19", "#06110E", "#030A08", "#030A08"),
         highlights=("#F4EBC6", "#FF5E5B"),   # ivory / coral: differ in hue and in lightness (CVD dE >= 35)
     ),
+    # the Sun: gold and ember on a scorched near-black
+    "solar": Theme(
+        name="solar",
+        bg="#0A0604",
+        ink="#F8F0E4",
+        muted="#BFAE95",   # >= 7:1 on bg
+        guide="#2C1B12",
+        mark="#FFAE3D",
+        accent="#FFE3A3",  # pale gold: rings that single out a few discs
+        mark_range=("#FFF1C9", "#8A2E0B"),   # white-hot centre .. dark red limb
+        sky=("#1A0A05", "#0F0705", "#0A0604", "#0A0604"),
+    ),
 }

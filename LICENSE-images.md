@@ -8,6 +8,13 @@ https://creativecommons.org/licenses/by/4.0/
 You may share and adapt them for any purpose, as long as you give credit
 ("artindata": @art.in.data on Instagram, @artindata on X) and link to the license.
 
+## Exception: post 005 (non-commercial only)
+The images in `posts/005_sunspots/output/` are built on SILSO sunspot data, which
+is licensed **CC BY-NC 4.0**. These images are therefore licensed under
+**Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**
+(https://creativecommons.org/licenses/by-nc/4.0/): the same terms as above, but
+for non-commercial use only.
+
 ## Not covered by this license
 - **Code** is under the MIT License (see `LICENSE`).
 - **Fonts** in `dataviz_style/fonts/` keep their own SIL Open Font License
