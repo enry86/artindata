@@ -111,4 +111,16 @@ THEMES = {
         mark_range=("#FFF1C9", "#8A2E0B"),   # white-hot centre .. dark red limb
         sky=("#1A0A05", "#0F0705", "#0A0604", "#0A0604"),
     ),
+    # an 18th-century sea chart: ink on parchment, one bright ink per nation
+    "logbook": Theme(
+        name="logbook",
+        bg="#EFE5CF",
+        ink="#2E2116",
+        muted="#6E5B45",   # >= 4.5:1 on bg
+        guide="#DCCDAE",
+        mark="#6B5A45",
+        accent="#8E1F2A",
+        # Dutch orange, British crimson, Spanish teal, French blue: CVD dE >= 10.4 (all pairs)
+        highlights=("#F07A10", "#C8102E", "#0E8C7A", "#2456C8"),
+    ),
 }
